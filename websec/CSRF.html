@@ -1,0 +1,22 @@
+<form id='login' action='http://localhost/websec/transactions.php' method='post' acceptcharset='UTF-8'>
+    <div class="row">
+    <div class="col-sm">
+    <label for='ToUserName' >To UserName*:</label>
+    </div>
+    <div class="col-sm">
+    <input type='text' class="form-control mb-2 mr-sm-2"
+   name='ToUserName' id='ToUserName' maxlength="50" required />
+    </div>
+    <div class="col-sm">
+    <label for='Amount' >Amount:</label>
+    </div>
+    <div class="col-sm">
+    <input type='text'class="form-control mb-2 mr-sm-2"
+   name='Amount' id='Amount' maxlength="50" required />
+    <input type="hidden" name="fromUserName" value="admin" />
+    </div>
+    <div class="col-sm">
+    <input type='submit' class="btn btn-primary mb-2" name='Submit'
+   id='submit' value='Send' />
+    </div>
+    </div>
